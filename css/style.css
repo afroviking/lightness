@@ -1,0 +1,452 @@
+body html {
+    height: 100%;
+}
+
+.header .home-menu {
+    background: transparent !important;
+    padding-top: 1.5em;
+}
+
+
+/* Changing pure css styles */
+
+.pure-menu {
+    border-bottom: none !important;
+}
+
+.pure-menu a {
+    font-size: 1em;
+    font-family: "OpenSansBold", sans-serif;
+    color: #0b4f6c !important;
+}
+
+
+/* This styles the hr lines */
+
+hr {
+    width: 60%;
+    border-top: solid 2px #096C95;
+}
+
+
+/* Home menu styles */
+
+.home-menu {
+    display: block;
+    top: 1em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.home-menu a {
+    color: white;
+    font-family: "OpenSansRegular", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.home-menu li a:hover {
+    background: white !important;
+    border: none !important;
+    color: #136C9F !important;
+}
+
+.header img {
+    top: 1em;
+    left: 2em;
+    position: absolute;
+}
+
+.landing {
+    background-color: #e8eef2;
+    z-index: 2;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3c4859;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#banner {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+}
+
+#banner img {
+    margin-bottom: 2em;
+}
+
+#banner h2, h1 {
+    font-family: RobotoSlabBold;
+    font-size: 3em;
+    color: #3c4859;
+}
+
+#banner p {
+    font-family: RobotoSlabBold;
+    font-size: 1.9em;
+}
+
+.inner span {
+    color: #15759E;
+}
+
+.learnmore {
+    text-decoration: none;
+    background: #141b28;
+    border-radius: 2em 2em 0 0;
+    border: 0 !important;
+    bottom: 0 !important;
+    color: #e1e5ea;
+    height: 3.25em;
+    left: 50%;
+    margin-left: -2em;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 4em;
+}
+
+.learnmore i {
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+#main {
+    min-height: 12%;
+    z-index: 100;
+    background-color: #e1e5ea;
+    text-align: center;
+    padding-top: 2em;
+    font-family: RobotoSlabBold;
+}
+
+#main h2 {
+    font-weight: 400;
+}
+
+.products {
+    padding-bottom: 2em;
+}
+
+.products h1 {
+    text-align: center !important;
+    font-family: RobotoSlabBold;
+    font-size: 3em;
+    color: #3c4859;
+    font-weight: 700;
+}
+
+.products h2,h3 {
+    text-align: center !important;
+    font-family: OpenSans;
+    font-size: 1.5em;
+    color: #3c4859;
+    font-weight: 600;
+}
+
+.products p {
+    color: #3c4859;
+    font-family: OpenSans;
+    font-weight: 400;
+}
+
+#products p {
+    color: #3c4859;
+    font-family: OpenSans;
+    font-size: 1em;
+}
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.icon.rounded {
+    background-color: #096C95;
+    border-radius: 100%;
+    color: #e8eef2;
+    display: inline-block;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    width: 2.5em;
+}
+
+.icon.rounded.big {
+    font-size: 7em;
+    margin-bottom: 0.5em;
+}
+
+.icon i {
+    font-size: 3em !important;
+}
+
+.content li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 1em;
+}
+
+
+/* This styles the inner content area of the about section */
+
+.box {
+    background: #e8eef2;
+    padding: 3em;
+}
+
+.box h2 {
+    font-family: RobotoSlabBold;
+    font-size: 3em;
+    color: #3c4859;
+    text-align: center;
+}
+
+.box h3 {
+    font-family: OpenSans;
+    font-size: 1.5em;
+    color: #3c4859;
+    font-weight: 400;
+}
+
+.round-image {
+    border-radius: 50% !important;
+    padding: 1em 2em;
+    width: 150px;
+    float: right;
+}
+
+
+/* This applies the rounded style of the about image */
+
+.box img {
+    display: block;
+    margin: -0 0 0 -6em;
+    position: relative;
+    width: calc(100% + 6em);
+}
+
+.box:last-child img {
+    border-radius: 0 0 6px 6px;
+    margin-bottom: -3em !important;
+}
+
+.content li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 1em;
+}
+
+.retailers img {
+    width: 150px;
+    padding-bottom: 2em;
+}
+
+.retailers .box {
+    box-shadow: none;
+    display: inline-block;
+    margin: 1em 1em 1em 1em;
+    padding: 0em;
+}
+
+
+/* Ugly hack, i'm sorry */
+
+.retailers img {
+    margin: 0 0 2em 0;
+}
+
+.retailers {
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.retailers h2 {
+    margin-top: 1em;
+    padding: 0;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+    color: #1B2638;
+}
+
+#team {
+    background-color: #e1e5ea;
+}
+
+#team p {
+    font-weight: 400;
+    font-family: "OpenSans", sans-serif;
+    font-size: 1em;
+    color: #3c4859;
+}
+
+#team h2 {
+    font-family: RobotoSlabBold;
+font-size: 3em;
+color: #3c4859;
+}
+
+.about-team {
+    width: 90%;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.about-team img {
+    border-radius: 50%;
+}
+
+#contact {
+    background-color: #e8eef2;
+
+}
+
+.contactus {
+    background-color: #e8eef2;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 2em;
+}
+
+.contactus li {
+    list-style: none;
+    display: inline-block;
+}
+
+.contactus h2 {
+        font-family: RobotoSlabBold;
+font-size: 3em;
+color: #3c4859;
+}
+
+.contactus p {
+        font-weight: 400;
+    font-family: "OpenSans", sans-serif;
+    font-size: 1em;
+    color: #3c4859;
+}
+
+.footer {
+    background-color: #3c4859;
+    text-align: center;
+    font-size: 1.3em;
+    color: #e8eef2;
+    font-weight: 400;
+    font-family: "OpenSans", sans-serif;
+}
+
+.footer p {
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+
+/* Applies icon style for social buttons */
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon:active,
+.icon:hover {
+    text-decoration: none;
+}
+
+.icon > .label {
+    display: none;
+}
+
+.icon.rounded {
+    background-color: #15759E;
+    border-radius: 100%;
+    color: #e8eef2;
+    display: inline-block;
+    height: 3.25em;
+    line-height: 3.25em;
+    text-align: center;
+    width: 3.25em;
+}
+
+.icon.rounded.big {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.icon.rounded.fa-twitter {
+    background-color: #2daae4;
+}
+
+.icon.rounded.fa-facebook {
+    background-color: #39599f;
+}
+
+.icon.rounded.fa-google-plus {
+    background-color: #c91e1f;
+}
+
+.icon.rounded.fa-tumblr,
+.icon.rounded.fa-linkedin {
+    background-color: #31516a;
+}
+
+
+/* Fonts  */
+
+@font-face {
+    font-family: RobotoSlabBold;
+    src: url(/fonts/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(/fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSansLight;
+    src: url(/fonts/OpenSans-Light.ttf);
+}
