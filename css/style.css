@@ -428,25 +428,25 @@ color: #3c4859;
 
 @font-face {
     font-family: RobotoSlabBold;
-    src: url(/fonts/RobotoSlab-Bold.ttf);
+    src: url(../fonts/RobotoSlab-Bold.ttf);
 }
 
 @font-face {
     font-family: RobotoSlab;
-    src: url(/fonts/RobotoSlab-Regular.ttf);
+    src: url(../fonts/RobotoSlab-Regular.ttf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(/fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: OpenSansBold;
-    src: url(/fonts/OpenSans-Bold.ttf);
+    src: url(../fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
     font-family: OpenSansLight;
-    src: url(/fonts/OpenSans-Light.ttf);
+    src: url(../fonts/OpenSans-Light.ttf);
 }
