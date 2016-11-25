@@ -25,7 +25,7 @@ body html {
 
 hr {
     width: 60%;
-    border-top: solid 2px #096C95;
+    border-top: solid 2px #fed766;
 }
 
 
@@ -59,7 +59,7 @@ hr {
 }
 
 .landing {
-    background-color: #e8eef2;
+    background-color: #009fb7;
     z-index: 2;
     background-attachment: fixed;
     background-position: center;
@@ -99,16 +99,16 @@ hr {
 }
 
 .inner span {
-    color: #15759E;
+    color: #fbfbff;
 }
 
 .learnmore {
     text-decoration: none;
-    background: #141b28;
+    background: #0b4f6c;
     border-radius: 2em 2em 0 0;
     border: 0 !important;
     bottom: 0 !important;
-    color: #e1e5ea;
+    color: #01baef;
     height: 3.25em;
     left: 50%;
     margin-left: -2em;
@@ -126,7 +126,7 @@ hr {
 #main {
     min-height: 12%;
     z-index: 100;
-    background-color: #e1e5ea;
+    background-color: #0b4f6c;
     text-align: center;
     padding-top: 2em;
     font-family: RobotoSlabBold;
@@ -144,7 +144,7 @@ hr {
     text-align: center !important;
     font-family: RobotoSlabBold;
     font-size: 3em;
-    color: #3c4859;
+    color: #fbfbff;
     font-weight: 700;
 }
 
@@ -152,20 +152,28 @@ hr {
     text-align: center !important;
     font-family: OpenSans;
     font-size: 1.5em;
-    color: #3c4859;
+    color: #fbfbff;
     font-weight: 600;
 }
 
 .products p {
-    color: #3c4859;
+    color: #fbfbff;
     font-family: OpenSans;
     font-weight: 400;
 }
 
 #products p {
-    color: #3c4859;
+    color: #fbfbff;
     font-family: OpenSans;
     font-size: 1em;
+}
+
+#products a {
+    color: #fed766;
+}
+
+#products li a {
+    color: #fbfbff;
 }
 
 .icon {
@@ -204,21 +212,25 @@ hr {
 /* This styles the inner content area of the about section */
 
 .box {
-    background: #e8eef2;
+    background: #009fb7;
     padding: 3em;
+    color: #fbfbff;
 }
 
+.box p {
+    color: #fbfbff;
+}
 .box h2 {
     font-family: RobotoSlabBold;
     font-size: 3em;
-    color: #3c4859;
+    color: #fbfbff;
     text-align: center;
 }
 
 .box h3 {
     font-family: OpenSans;
     font-size: 1.5em;
-    color: #3c4859;
+    color: #fbfbff;
     font-weight: 400;
 }
 
@@ -282,24 +294,24 @@ hr {
     font-weight: 400;
     letter-spacing: 0.1em;
     font-size: 1.5em;
-    color: #1B2638;
+    color: #fbfbff;
 }
 
 #team {
-    background-color: #e1e5ea;
+    background-color: #0b4f6c;
 }
 
 #team p {
     font-weight: 400;
     font-family: "OpenSans", sans-serif;
     font-size: 1em;
-    color: #3c4859;
+    color: #fbfbff;
 }
 
 #team h2 {
     font-family: RobotoSlabBold;
 font-size: 3em;
-color: #3c4859;
+color: #fbfbff;
 }
 
 .about-team {
@@ -317,12 +329,12 @@ color: #3c4859;
 }
 
 #contact {
-    background-color: #e8eef2;
+    background-color: #009fb7;
 
 }
 
 .contactus {
-    background-color: #e8eef2;
+    background-color: #009fb7;
     text-align: center;
     width: 80%;
     margin: auto;
@@ -340,21 +352,21 @@ color: #3c4859;
 .contactus h2 {
         font-family: RobotoSlabBold;
 font-size: 3em;
-color: #3c4859;
+color: #fbfbff;
 }
 
 .contactus p {
         font-weight: 400;
     font-family: "OpenSans", sans-serif;
     font-size: 1em;
-    color: #3c4859;
+    color: #fbfbff;
 }
 
 .footer {
-    background-color: #3c4859;
+    background-color: #fed766;
     text-align: center;
     font-size: 1.3em;
-    color: #e8eef2;
+    color: #0b4f6c;
     font-weight: 400;
     font-family: "OpenSans", sans-serif;
 }
