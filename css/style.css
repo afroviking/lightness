@@ -25,9 +25,8 @@ body html {
 
 hr {
     width: 60%;
-    border-top: solid 2px #fed766;
+    border-top: solid 2px white;
 }
-
 
 /* Home menu styles */
 
@@ -56,6 +55,7 @@ hr {
     top: 1em;
     left: 2em;
     position: absolute;
+    height: 3em;
 }
 
 .landing {
@@ -69,7 +69,6 @@ hr {
     text-align: center;
     height: 100vh;
     overflow: hidden;
-    height: 100vh;
 }
 
 #banner {
@@ -89,8 +88,8 @@ hr {
 
 #banner h2, h1 {
     font-family: RobotoSlabBold;
-    font-size: 3em;
     color: #3c4859;
+    font-size: 3em;
 }
 
 #banner p {
@@ -176,6 +175,31 @@ hr {
     color: #fbfbff;
 }
 
+.about {
+position: absolute;
+top: 25%;
+margin-top: 2em;
+padding-top: 4em;
+}
+
+.about h1 {
+    font-size: 2.5em;
+}
+
+.about h2 {
+    font-size: 1.5em;
+}
+
+.about p {
+    font-size: 1em;
+}
+
+.device img {
+    max-height: 80px;
+    max-width: 200px;
+    padding: 0 0 3em 6em;
+}
+
 .icon {
     text-decoration: none;
     border-bottom: none;
@@ -212,7 +236,7 @@ hr {
 /* This styles the inner content area of the about section */
 
 .box {
-    background: #009fb7;
+    background: #0b4f6c;
     padding: 3em;
     color: #fbfbff;
 }
@@ -298,7 +322,7 @@ hr {
 }
 
 #team {
-    background-color: #0b4f6c;
+    background-color: #009fb7;
 }
 
 #team p {
@@ -329,19 +353,19 @@ color: #fbfbff;
 }
 
 #contact {
-    background-color: #009fb7;
+    background-color: #3c4859;
 
 }
 
 .contactus {
-    background-color: #009fb7;
+    background-color: #3c4859;
     text-align: center;
     width: 80%;
     margin: auto;
     left: 0;
     bottom: 0;
     right: 0;
-    padding-top: 2em;
+    padding: 2em 0;
 }
 
 .contactus li {
@@ -363,7 +387,7 @@ color: #fbfbff;
 }
 
 .footer {
-    background-color: #fed766;
+    background-color: #009fb7;
     text-align: center;
     font-size: 1.3em;
     color: #0b4f6c;
@@ -407,10 +431,10 @@ color: #fbfbff;
     border-radius: 100%;
     color: #e8eef2;
     display: inline-block;
-    height: 3.25em;
-    line-height: 3.25em;
+    height: 2em;
+    line-height: 2em;
     text-align: center;
-    width: 3.25em;
+    width: 2em;
 }
 
 .icon.rounded.big {
@@ -461,4 +485,38 @@ color: #fbfbff;
 @font-face {
     font-family: OpenSansLight;
     src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@media only screen  and (min-width : 1824px) {
+.about {
+margin: 0 auto;
+position: absolute;
+left: 22%;
+top: 50%;
+padding-top: 5em;
+
+.about h1 {
+    font-size: 3em;
+}
+
+.icon.rounded {
+    background-color: #096C95;
+    border-radius: 100%;
+    color: #e8eef2;
+    display: inline-block;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    width: 2.5em;
+}
+
+.icon.rounded.big {
+    font-size: 7em;
+    margin-bottom: 0.5em;
+}
+
+.icon i {
+    font-size: 3em !important;
+}
+
 }
